@@ -1,6 +1,8 @@
+use std::env;
+
 pub struct TwitterConfig {
-    username: String,
-    token: String,
+    pub username: String,
+    pub token: String,
 }
 
 impl TwitterConfig {
